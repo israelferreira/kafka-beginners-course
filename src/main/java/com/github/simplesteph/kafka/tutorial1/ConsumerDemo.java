@@ -33,11 +33,11 @@ public class ConsumerDemo {
                             Offset: {}
                             Timestamp: {}
                             """,
-                        consumerRecord.key(),
-                        consumerRecord.value(),
-                        consumerRecord.partition(),
-                        consumerRecord.offset(),
-                        consumerRecord.timestamp()
+                            consumerRecord.key(),
+                            consumerRecord.value(),
+                            consumerRecord.partition(),
+                            consumerRecord.offset(),
+                            consumerRecord.timestamp()
                 );
             }
         }
